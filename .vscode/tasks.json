@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C: build active dir (linux, GCC)",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-Wall",
+                "-g",
+                "*.c",
+                "-o",
+                "${fileDirnameBasename}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": [
+                    "relative",
+                    "${fileDirname}"
+                ]
+            },
+            "group": "build"
+        }
+    ],
+    "version": "2.0.0"
+}
