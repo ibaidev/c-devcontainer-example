@@ -1,2 +1,1 @@
-# c-devcontainer-example
-C\C++ Devcontainer example
+# C\C++ Devcontainer example
