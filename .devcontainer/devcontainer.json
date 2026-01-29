@@ -1,0 +1,4 @@
+{
+    "name": "C",
+    "image": "registry.gitlab.com/mu-bd-ce/devcontainers/c:latest"
+}
